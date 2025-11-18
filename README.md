@@ -17,8 +17,6 @@ http://localhost:4001/api/preferences
 Content-Type: application/json
 
 ### Example Request (Node.js / fetch)
-
-```javascript
 // POST - Save preference
 await fetch("http://localhost:4001/api/preferences", {
     method: "POST",
@@ -38,7 +36,9 @@ await fetch("http://localhost:4001/api/preferences", {
     body: JSON.stringify({ key: "difficulty", value: "hard" })
 });
 
+---
 
+## How to REQUEST Data (Programmatically) 
 Expected Successful JSON Response (HTTP 200):
 
 {
@@ -65,7 +65,6 @@ notifications|string|Notifications preference (enabled, disabled)
 
 ## UML Sequence Diagram
 
-```markdown
-![UML Preference Manager Diagram](./uml-sequence-diagram.png)
+![alt text](uml-sequence-diagram.png)
 
 
