@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 {
-  "theme": "light"
+  "theme": "light",
+  "difficulty": "easy",
+  "notifications": "enabled"
 }
-=======
-{}
->>>>>>> 29a5371a85c8fcf8e5190cd37e5aa9ca962fc4f8

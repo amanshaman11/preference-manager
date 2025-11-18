@@ -38,10 +38,6 @@ await fetch("http://localhost:4001/api/preferences", {
     body: JSON.stringify({ key: "difficulty", value: "hard" })
 });
 
- ---
-
-## How to RECIEVE data (Programmatically)
-
 
 Expected Successful JSON Response (HTTP 200):
 
@@ -69,7 +65,7 @@ notifications|string|Notifications preference (enabled, disabled)
 
 ## UML Sequence Diagram
 
-
+```markdown
 ![UML Preference Manager Diagram](./uml-sequence-diagram.png)
 
 
